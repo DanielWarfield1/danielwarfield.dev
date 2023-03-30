@@ -4,7 +4,7 @@ import boarderh from "./resources/entrepreneur/boarder.png";
 import corner from "./resources/entrepreneur/corner.png";
 import boarderr from "./resources/entrepreneur/boarderr1.png";
 import boarderl from "./resources/entrepreneur/boarderr2.png";
-import bgmap from "./resources/entrepreneur/map.webp";
+import bgmap from "./resources/entrepreneur/map.jpg";
 import paper from "./resources/entrepreneur/paper.jpg";
 
 function Frame({ content }) {
@@ -15,7 +15,7 @@ function Frame({ content }) {
           position: "absolute",
           left: "0%",
           zIndex: "-1",
-          display: "block"
+          display: "block",
         }}
       >
         {[...Array(4)].map((x, i) => (
@@ -40,7 +40,7 @@ function Frame({ content }) {
           display: "flex",
           height: "40px",
           backgroundColor: "red",
-          justifyContent: "center"
+          justifyContent: "center",
         }}
       >
         <img style={{}} alt="" />
@@ -52,14 +52,14 @@ function Frame({ content }) {
         style={{
           position: "absolute",
           width: "100vw",
-          top: "0px"
+          top: "0px",
         }}
       >
         <div
           style={{
             height: "50px",
             display: "flex",
-            justifyContent: "space-between"
+            justifyContent: "space-between",
           }}
         >
           <img className="bigshad" src={corner} alt="" />
@@ -74,21 +74,21 @@ function Frame({ content }) {
           position: "absolute",
           width: "100vw",
           top: "100%",
-          transformOrigin: "bottom"
+          transformOrigin: "bottom",
         }}
       >
         <div
           style={{
             display: "flex",
             height: "40px",
-            justifyContent: "center"
+            justifyContent: "center",
           }}
         >
           <div
             style={{
               position: "relative",
               display: "flex",
-              top: "-40px"
+              top: "-40px",
             }}
           >
             <img style={{}} alt="" />
@@ -105,7 +105,7 @@ function Frame({ content }) {
           position: "absolute",
           width: "100vw",
           top: "100%",
-          transformOrigin: "bottom"
+          transformOrigin: "bottom",
         }}
       >
         <div
@@ -113,14 +113,14 @@ function Frame({ content }) {
             position: "relative",
             width: "100vw",
             top: "-50px",
-            transformOrigin: "bottom"
+            transformOrigin: "bottom",
           }}
         >
           <div
             style={{
               height: "50px",
               display: "flex",
-              justifyContent: "space-between"
+              justifyContent: "space-between",
             }}
           >
             <img className="bigshad" src={corner} alt="" />
@@ -134,7 +134,7 @@ function Frame({ content }) {
           <div
             style={{
               display: "flex",
-              justifyContent: "space-between"
+              justifyContent: "space-between",
             }}
           >
             <img
@@ -155,7 +155,7 @@ function Frame({ content }) {
       <div
         style={{
           width: "100vw",
-          top: "50px"
+          top: "50px",
         }}
       >
         {content}
@@ -168,14 +168,14 @@ function ContentBlock({ content }) {
   return (
     <div
       style={{
-        display: "inline-block"
+        display: "inline-block",
       }}
     >
       <div
         style={{
           contain: "paint",
           margin: "20px",
-          maxWidth: "500px"
+          maxWidth: "500px",
         }}
       >
         <div className="contentBlock" style={{}}>
@@ -185,7 +185,7 @@ function ContentBlock({ content }) {
               left: "0%",
               zIndex: "-1",
               display: "block",
-              alignContent: "left"
+              alignContent: "left",
             }}
           >
             <div style={{}}>
