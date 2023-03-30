@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Roboto:wght@300&family=Source+Code+Pro:wght@700&display=swap");
+
+.devbg {
+  font-family: sans-serif;
+  text-align: left;
+  background-color: black;
+  color: #66ff66;
+  font-family: "Roboto Mono";
+  font-size: 6px;
+}
+
+.devhead {
+  font-family: "Source Code Pro";
+}
+
+div.devcontent {
+  text-align: center;
+  text-align: center;
+}
+
+.devcontent span {
+  font-size: 18px;
+  color: #66ff66;
+}
+
+.devcontent h1 {
+  color: white;
+  font-size: 20px;
+}
+
+.devcontent h2 {
+  color: white;
+  font-size: 14px;
+}
+
+.devcontent p {
+  color: #66ff66;
+  font-size: 14px;
+}
+
+.devcontent .block {
+  text-align: left;
+  margin: 0 auto;
+  display: inline-block;
+  line-height: 1.1;
+  font-size: 14px;
+}
