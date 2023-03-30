@@ -9,10 +9,13 @@ export default function Navbar({ onChangeView }) {
         justifyContent: "space-between",
         position: "sticky",
         top: 0,
-        zIndex: 10000
+        zIndex: 10000,
       }}
     >
-      <div style={{ position: "relative", left: "20px" }}>
+      <div
+        style={{ position: "relative", left: "20px", cursor: "pointer" }}
+        onClick={() => onChangeView("profileView")}
+      >
         <h1>DW</h1>
       </div>
       <div></div>
@@ -20,7 +23,7 @@ export default function Navbar({ onChangeView }) {
         style={{
           display: "flex",
           alignItems: "center",
-          paddingRight: "10px"
+          paddingRight: "10px",
         }}
       >
         <Hamburger onChangeView={onChangeView} />
