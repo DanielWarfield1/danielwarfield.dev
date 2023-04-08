@@ -12,6 +12,7 @@ export default function App() {
   function onChangeView(view) {
     window.scrollTo(0, 0);
     setCurrentView(view);
+    console.log("Changed View To Home");
   }
 
   return (

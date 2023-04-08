@@ -7,7 +7,7 @@ import vitTR from "./resources/vit/vitTR.png";
 import vitBL from "./resources/vit/vitBL.png";
 import vitBR from "./resources/vit/vitBR.png";
 
-export default function ProfileRenaissance() {
+export default function ProfileRenaissance({ clickHandler }) {
   const canvasHeight = "400px";
 
   return (
@@ -18,7 +18,7 @@ export default function ProfileRenaissance() {
           background: "#ff9999",
           contain: "paint",
           display: "flex",
-          justifyContent: "center"
+          justifyContent: "center",
         }}
       >
         <div
@@ -29,7 +29,7 @@ export default function ProfileRenaissance() {
             borderRadius: "50%",
             flexShrink: 0,
             marginTop: "-600px",
-            position: "absolute"
+            position: "absolute",
           }}
         />
         <div
@@ -40,7 +40,7 @@ export default function ProfileRenaissance() {
             borderRadius: "50%",
             flexShrink: 0,
             marginTop: "-300px",
-            position: "absolute"
+            position: "absolute",
           }}
         />
         <div
@@ -51,7 +51,7 @@ export default function ProfileRenaissance() {
             borderRadius: "50%",
             flexShrink: 0,
             marginTop: "-100px",
-            position: "absolute"
+            position: "absolute",
           }}
         />
         <div
@@ -62,7 +62,7 @@ export default function ProfileRenaissance() {
             borderRadius: "50%",
             flexShrink: 0,
             marginTop: "0px",
-            position: "absolute"
+            position: "absolute",
           }}
         />
         <div
@@ -73,9 +73,25 @@ export default function ProfileRenaissance() {
             borderRadius: "50%",
             flexShrink: 0,
             marginTop: "50px",
-            position: "absolute"
+            position: "absolute",
           }}
         />
+      </div>
+      <div
+        style={{
+          position: "absolute",
+          display: "flex",
+          marginTop: "-215px",
+          width: "100%",
+          height: "10px",
+        }}
+      >
+        <div style={{ width: "50%" }}>
+          <h1 style={{ color: "rgba(255, 255, 255, 0.1)" }}>CLICK ME</h1>
+        </div>
+        <div style={{ width: "50%" }}>
+          <h1 style={{ color: "rgba(255, 255, 255, 0.1)" }}>CLICK ME</h1>
+        </div>
       </div>
       <div>
         <img
@@ -83,7 +99,7 @@ export default function ProfileRenaissance() {
             position: "absolute",
             scale: "0.9",
             marginTop: "-230px",
-            translate: "-32px"
+            translate: "-32px",
           }}
           src={vitHeart}
           alt=""
@@ -93,7 +109,7 @@ export default function ProfileRenaissance() {
             position: "absolute",
             scale: "0.9",
             marginTop: "-290px",
-            translate: "-32px"
+            translate: "-32px",
           }}
           src={vitHead}
           alt=""
@@ -104,9 +120,10 @@ export default function ProfileRenaissance() {
             position: "absolute",
             scale: "0.9",
             marginTop: "-280px",
-            translate: "-170px"
+            translate: "-170px",
           }}
           src={vitTL}
+          onClick={() => clickHandler("engineerSection")}
           alt=""
         />
         <img
@@ -115,9 +132,10 @@ export default function ProfileRenaissance() {
             position: "absolute",
             scale: "0.9",
             marginTop: "-280px",
-            translate: "33px"
+            translate: "33px",
           }}
           src={vitTR}
+          onClick={() => clickHandler("devSection")}
           alt=""
         />
         <img
@@ -126,9 +144,10 @@ export default function ProfileRenaissance() {
             position: "absolute",
             scale: "0.9",
             marginTop: "-150px",
-            translate: "0px"
+            translate: "0px",
           }}
           src={vitBR}
+          onClick={() => clickHandler("ArtistSection")}
           alt=""
         />
         <img
@@ -137,9 +156,10 @@ export default function ProfileRenaissance() {
             position: "absolute",
             scale: "0.9",
             marginTop: "-150px",
-            translate: "-170px"
+            translate: "-172px",
           }}
           src={vitBL}
+          onClick={() => clickHandler("EnrtepreneurSection")}
           alt=""
         />
       </div>

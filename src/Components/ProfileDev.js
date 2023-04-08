@@ -24,7 +24,7 @@ function TypeBlock() {
         autoStart: true,
         loop: true,
         delay: 0,
-        deleteSpeed: 1
+        deleteSpeed: 1,
       }}
       className="Typewriter"
       onInit={(typewriter) => {
@@ -64,7 +64,7 @@ function Header() {
           color: "white",
           position: "relative",
           display: "flex",
-          alignItems: "center"
+          alignItems: "center",
         }}
       >
         <div style={{ display: "flex" }}>
@@ -74,7 +74,7 @@ function Header() {
               width: "20px",
               marginLeft: "10px",
               borderRadius: "50%",
-              backgroundColor: "red"
+              backgroundColor: "red",
             }}
           />
           <div
@@ -83,7 +83,7 @@ function Header() {
               width: "20px",
               marginLeft: "5px",
               borderRadius: "50%",
-              backgroundColor: "yellow"
+              backgroundColor: "yellow",
             }}
           />
           <div
@@ -92,7 +92,7 @@ function Header() {
               width: "20px",
               marginLeft: "5px",
               borderRadius: "50%",
-              backgroundColor: "yellowgreen"
+              backgroundColor: "yellowgreen",
             }}
           />
         </div>
@@ -128,10 +128,24 @@ export default function ProfileDev() {
         </div>
         <div>
           <div className="devcontent">
-            <DevCH title="Minor in CS @ U-Pitt" subtitle="c/o 2020" />
+            <DevCH
+              title="Major in Mechanical Engineering, Minor in Computer Science, and Minor in Math @ U-Pitt"
+              subtitle="c/o 2020"
+            />
             <div className="block">
               <p>
-                == Academic Focus ==
+                == MechE Academic Focus ==
+                <br />
+                |- Simulation and Modeling
+                <br />
+                |- Dynamic Systems
+                <br />
+                |- Microelectronics
+                <br />
+                |- Controls
+                <br />
+                <br />
+                == CS Academic Focus ==
                 <br />
                 |- Data Science
                 <br />
@@ -153,7 +167,38 @@ export default function ProfileDev() {
                 |- Cumulative GPA: 3.38
               </p>
             </div>
-            <DevCH title="OK2StandUP Co-Founder" subtitle="3y 6mo" />
+            <DevCH title="R&D @ Direct Dimensions" subtitle="1y 3mo" />
+            <div className="block">
+              <p>
+                |- Designed, Manufactured,
+                <br />
+                | Tested, and Employed 3D Scanners
+                <br />
+                |<br />
+                |- Developed Visual Simulation tools
+                <br />
+                | In Blender with Python
+                <br />
+                |<br />
+                |- Assembled and Debuged LAN based
+                <br />
+                | distributed computation systems
+                <br />
+                |<br />
+                |- Partnered with a team of
+                <br />
+                | graduate researchers from Johns Hopkins
+                <br />
+                | in fabricating a geodesic scanner
+                <br />
+                |<br />
+                |- participated in various deployments
+                <br />
+                | to historic sites throught DC
+                <br />
+              </p>
+            </div>
+            <DevCH title="OK2StandUP Co-Founder" subtitle="4y 1mo" />
             <div className="block">
               <p>
                 |- Hired as a first hire intern
