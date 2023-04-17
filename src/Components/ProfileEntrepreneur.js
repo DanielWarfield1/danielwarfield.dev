@@ -210,7 +210,7 @@ const ok2content = (
     content=<div>
       <h1 className="subtitle"> OK2StandUP</h1>
       <p className="centered">
-        ■ 3y 6mo ■ co-founder ■<br />
+        ■ 3y 6mo ■ Co-Founder ■<br />
         B2B Medtech Startup
       </p>
       <h2 className="subsubtitle"> Objectives </h2>
@@ -218,7 +218,7 @@ const ok2content = (
         <strong>I had two chief objectives at OK2:</strong>
         <br />
         <br />
-        <strong>1) to learn:</strong> This was a tramendous success
+        <strong>1) to learn:</strong> This was a tremendous success
         <br />
         <br />
         <br />
@@ -228,9 +228,9 @@ const ok2content = (
       <p>
         <strong>1) You must be capable of more than you're doing</strong>
         <br />
-        <br /> In an early venture, catastophic issues and vast unexpected time
+        <br /> In an early venture, catastrophic issues and vast unexpected time
         sinks are the rule. Makers like to handle difficult, engaging problems,
-        that lie on the edge of their ability. Entrepreneurs incramentally adapt
+        that lie on the edge of their ability. Entrepreneurs incrementally adapt
         on existing solutions which they intimately understand.
         <br />
         <br />
@@ -248,11 +248,11 @@ const ok2content = (
         <strong>3) Sell first</strong>
         <br />
         <br />
-        It's easy to trick yourself into thinking you're selling a product, but
+        It's easy to trick yourself into thinking you're selling a product. But,
         you wont change the world, you wont help people, your vision wont
         matter, you'll never be able to support your employees, and you'll never
         be able to satisy investors unless you have revenue. Every other
-        endevour should be minimized as much as is possible in an early phase
+        endeavour should be minimized as much as is possible in an early phase
         venture.
       </p>
     </div>
@@ -264,7 +264,7 @@ const productsContent = (
     content=<div>
       <h1 className="subtitle">***products.com</h1>
       <p className="centered">
-        ■ ~3mo ■ founder ■<br />
+        ■ ~3mo ■ Founder ■<br />
       </p>
       B2C Product Focused Ecommerce
       <h2 className="subsubtitle">Objectives</h2>
@@ -276,14 +276,14 @@ const productsContent = (
         <br />
         <br />
         Primarily, I wanted to get my feet wet in marketing, procurement,
-        ecommerce, customer management, etc. I think this was a good step in the
+        ecommerce, and customer management. I think this was a good step in the
         right direction.
         <br />
         <br />
         <strong>2) Make money:</strong>
         <br />
         <br />
-        This was a failute
+        This was a failure
         <br />
         <br />
         <strong>
@@ -297,12 +297,12 @@ const productsContent = (
       <p>
         <strong>1) Everything can break a company</strong>
         <br />
-        <br /> I still stand by the idea of this company, and I think the idea
-        to apply an existing technology, with existing products, to a new market
+        <br /> I still stand by the idea of this company. I think the idea to
+        apply an existing technology, with existing products, to a new market
         was a good one, but the market I was targeting has heavy marketing
         restrictions, meaning it was prohibatively expensive to find a target
         market and attempt product-market fit. I didn't anticipate marketing to
-        be a serious issue, but it was. I Decided to keep this idea in my back
+        be a serious issue, but it was. I decided to keep this idea in my back
         pocket and move forward.
       </p>
     </div>
@@ -314,7 +314,7 @@ const aspContent = (
     content=<div>
       <h1 className="subtitle">asp***.com</h1>
       <p className="centered">
-        ■ ~2mo ■ founder ■<br />
+        ■ ~2mo ■ Founder ■<br />
       </p>
       B2C Segment Focused Ecommerce
       <h2 className="subsubtitle">Objectives</h2>
@@ -333,20 +333,20 @@ const aspContent = (
         <br />
         <strong>2) Make money:</strong>
         <br />
-        <br />I did make revenue, somehat consistently, but my products were not
-        differentiated enough to attract conversions at a high enough percentage
-        to offset my marketing expenses. So, this was a failure, but a promising
-        one.
+        <br />I did make revenue, somewhat consistently, but my products were
+        not differentiated enough to attract conversions at a high enough
+        percentage to offset my marketing expenses. So, this was a failure, but
+        a promising one.
       </p>
       <h2 className="subsubtitle"> Things I Learned </h2>
       <p>
         <strong>1) What oversaturated really means</strong>
         <br />
         <br />
-        E-commerce a booming business, with a huge number of players in the
+        E-commerce is a booming segment, with a huge number of players in the
         game. You need good products, at good prices, with the right marketing
         and sales channels to be successful. You might be good enough to land
-        sales, but the cost to acquire customers is not free, and if you can't
+        sales, but the cost to acquire customers is not free. If you can't
         provide substantial differentiated value, you wont have margins large
         enough to fork the necessary money for customer acquisition.
       </p>
@@ -359,7 +359,7 @@ const hatsContent = (
     content=<div>
       <h1 className="subtitle">***hats.store</h1>
       <p className="centered">
-        ■ ~2mo ■ founder ■ WIP ■<br />
+        ■ ~2mo ■ Founder ■ WIP ■<br />
       </p>
       B2C Segment Focused Ecommerce
       <h2 className="subsubtitle">Objective</h2>
@@ -371,12 +371,12 @@ const hatsContent = (
       </p>
       <h2 className="subsubtitle"> Things I Learned </h2>
       <p>
-        <strong>1) social media is hard</strong>
+        <strong>1) Social media is hard</strong>
         <br />
         <br />
         Between algorithmic priority, the sheer volume of high quality content
         by an army of avid content creators, consumers ever growing distaste of
-        marketed material, and an unstable fast moving economy, getting organic
+        marketed material, and an unstable fast moving economy; getting organic
         traffic from social media is no cake walk.
       </p>
     </div>

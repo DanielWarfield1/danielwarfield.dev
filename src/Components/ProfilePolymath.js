@@ -20,7 +20,7 @@ export default function ProfilePolymath() {
           id="definition"
           style={{ color: "White", padding: "0px", margin: "10px" }}
         >
-          a person of wide-ranging knowledge or learning.
+          a person of wide-ranging knowledge or learning
         </p>
         <div style={{ height: "20px" }} />
       </div>

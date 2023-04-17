@@ -24,7 +24,7 @@ function RoboArm() {
               position: "absolute",
               outlineWidth: "3px",
               outlineStyle: "solid",
-              backgroundColor: "darkblue"
+              backgroundColor: "darkblue",
             }}
           ></div>
           <div id="roboarm3">
@@ -38,7 +38,7 @@ function RoboArm() {
                 position: "absolute",
                 outlineWidth: "3px",
                 outlineStyle: "solid",
-                backgroundColor: "darkblue"
+                backgroundColor: "darkblue",
               }}
             ></div>
             <div id="roboarm4">
@@ -52,7 +52,7 @@ function RoboArm() {
                   position: "absolute",
                   outlineWidth: "3px",
                   outlineStyle: "solid",
-                  backgroundColor: "darkblue"
+                  backgroundColor: "darkblue",
                 }}
               ></div>
               <div
@@ -65,7 +65,7 @@ function RoboArm() {
                   position: "absolute",
                   outlineWidth: "3px",
                   outlineStyle: "solid",
-                  backgroundColor: "darkblue"
+                  backgroundColor: "darkblue",
                 }}
               ></div>
             </div>
@@ -80,7 +80,7 @@ function RoboArm() {
                   position: "absolute",
                   outlineWidth: "3px",
                   outlineStyle: "solid",
-                  backgroundColor: "darkblue"
+                  backgroundColor: "darkblue",
                 }}
               ></div>
               <div
@@ -93,7 +93,7 @@ function RoboArm() {
                   position: "absolute",
                   outlineWidth: "3px",
                   outlineStyle: "solid",
-                  backgroundColor: "darkblue"
+                  backgroundColor: "darkblue",
                 }}
               ></div>
               <div
@@ -106,7 +106,7 @@ function RoboArm() {
                   position: "absolute",
                   outlineWidth: "3px",
                   outlineStyle: "solid",
-                  backgroundColor: "darkblue"
+                  backgroundColor: "darkblue",
                 }}
               ></div>
             </div>
@@ -125,7 +125,7 @@ function Banner() {
         marginLeft: "5px",
         marginTop: "20px",
         display: "flex",
-        justifyContent: "space-between"
+        justifyContent: "space-between",
       }}
     >
       <div className="solidol" style={{ display: "flex", width: "100px" }}>
@@ -138,7 +138,7 @@ function Banner() {
             outlineWidth: "5px",
             outlineColor: "white",
             borderRadius: "50%",
-            contain: "paint"
+            contain: "paint",
           }}
         >
           <RoboArm />
@@ -150,7 +150,7 @@ function Banner() {
           style={{
             display: "flex",
             marginLeft: "20px",
-            marginRight: "20px"
+            marginRight: "20px",
           }}
         >
           <div
@@ -159,18 +159,18 @@ function Banner() {
               display: "flex",
               marginTop: "20px",
               marginBottom: "20px",
-              alignItems: "center"
+              alignItems: "center",
             }}
           >
             <div
               style={{
                 argin: "auto",
-                width: "100%"
+                width: "100%",
               }}
             >
               <h1
                 style={{
-                  margin: "0px"
+                  margin: "0px",
                 }}
               >
                 ENGINEER
@@ -192,7 +192,7 @@ function Content({ img, content }) {
           marginLeft: "5px",
           display: "flex",
           justifyContent: "space-between",
-          maxWidth: "700px"
+          maxWidth: "700px",
         }}
       >
         <div
@@ -203,7 +203,7 @@ function Content({ img, content }) {
             width: "100px",
             display: "flex",
             justifyContent: "center",
-            alignItems: "center"
+            alignItems: "center",
           }}
         >
           <div
@@ -214,7 +214,7 @@ function Content({ img, content }) {
               width: "50px",
               height: "100%",
               marginLeft: "25px",
-              marginRight: "25px"
+              marginRight: "25px",
             }}
           ></div>
           <div
@@ -226,7 +226,7 @@ function Content({ img, content }) {
               outlineWidth: "5px",
               backgroundColor: "darkblue",
               borderRadius: "50%",
-              contain: "paint"
+              contain: "paint",
             }}
           >
             {img}
@@ -280,7 +280,7 @@ const engr2 = (
     </p>
     <p>
       <strong>Summary:</strong> At DRDI (Direct Dimensions), my chief
-      responsability was the construction and modification of 3D scanners. I
+      responsibility was the construction and modification of 3D scanners. I
       primarily worked on photogrammetry scanners, which use sets of pictures
       taken at different angles to create 3D models. I created experimental
       prototypes, created custom scripts in Blender to simulate different camera
@@ -331,14 +331,14 @@ const engr3 = (
         <br />
         <br />
         <strong>Summary:</strong> Created a genetic algorithm which was used to
-        optimize scheduling. Genetic algorithms are a phenomenal optimization
-        strategy for computationally complex problems which obey simple,
-        descriptive rules. In essence, to use a GA, one restructures a potential
-        solution into a chromosome, with the constituent elements of the
-        solution being a nucleotide within the chromosome, and restructures the
-        criteria for a solution into a fitness function, which judges the
+        optimize a scheduling problem. Genetic algorithms are a phenomenal
+        optimization strategy for computationally complex problems which obey
+        simple, descriptive rules. In essence, to use a GA, one restructures a
+        potential solution into a chromosome, with the constituent elements of
+        the solution being a nucleotide within the chromosome, and restructures
+        the criteria for a solution into a fitness function, which judges the
         fitness of a particular chromosome. By using survival of the fittest,
-        crossover, and mutation, one effectively "breeds" a solution from a
+        crossover, and mutation; one effectively "breeds" a solution from a
         random population of chromosomes, each with randomly initialized
         nucleotides. Written in python.
       </p>
@@ -388,8 +388,8 @@ const engr3 = (
         <strong>Topic:</strong> Parametric Modeling with Force Analysis
         <br />
         <br />
-        <strong>Summary:</strong> Modeled a design problem in Matlab, and
-        explored various potential solutions with force simulation.
+        <strong>Summary:</strong> Modeled a mechanical design problem in Matlab,
+        and explored various potential solutions with force simulation.
       </p>
       <p>
         <div style={{ margin: "10px" }}>
@@ -415,10 +415,10 @@ const engr4 = (
       PCB Design
     </p>
     <p>
-      <strong>Summary: </strong>I essentially turned my college senior design
-      project into a 2 year intensive study of microelectroncis. I prototyped,
-      designed, and assembled surface mount PCBs which were used to drive a
-      prototype prosthetic hand.
+      <strong>Summary: </strong>I turned my college senior design project into a
+      2 year intensive study of microelectroncis. I prototyped, designed, and
+      assembled surface mount PCBs which were used to drive a prototype
+      prosthetic hand.
     </p>
     <p>
       Some notable modules include:

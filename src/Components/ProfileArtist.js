@@ -15,13 +15,13 @@ export default function ProfileArtist() {
         contain: "paint",
         display: "flex",
         justifyContent: "center",
-        alignItems: "center"
+        alignItems: "center",
       }}
     >
       <div
         style={{
           position: "absolute",
-          zIndex: "-1"
+          zIndex: "-1",
         }}
       >
         {[...Array(20)].map((x, i) => (
@@ -39,7 +39,7 @@ export default function ProfileArtist() {
         <img src={artistTitle} style={{ scale: "80%" }} alt="" />
         <h1> - I converted a schoolbus into a house</h1>
         <img src={bus} alt="" />
-        <h1> - I'm profficient with a variety of artistic tools</h1>
+        <h1> - I'm proficient with a variety of artistic tools</h1>
         <img src={tools} alt="" />
         <h1> - I fancy myself a decent visual artist and animator</h1>
         <img src={bunny} alt="" />
