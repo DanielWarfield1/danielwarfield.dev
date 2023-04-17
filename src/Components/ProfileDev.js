@@ -199,17 +199,9 @@ export default function ProfileDev() {
               </p>
             </div>
             <DevCH title="OK2StandUP Co-Founder" subtitle="4y 1mo" />
-            <div className="block">
-              <p>
-                |- Hired as a first hire intern
-                <br />
-                |- Rose to co-founder
-              </p>
-            </div>
             <h2>
               == Lead Developer ==
               <br />
-              (Primary Skillset, Secondary Effort)
             </h2>
             <div className="block">
               <p>
@@ -236,14 +228,13 @@ export default function ProfileDev() {
                 | to prioritize efforts
                 <br />
                 | <br />
-                |- Got the company from technical
+                |- Led the company from technical
                 <br />| debt to deploying to beta sites
               </p>
             </div>
             <h2>
               == Data Scientist ==
               <br />
-              (Secondary Skillset, Primary Effort)
             </h2>
             <div className="block">
               <p>
@@ -317,9 +308,9 @@ export default function ProfileDev() {
                 | AWS Fargate clusters
                 <br />
                 |<br />
-                |-Was the soul developer in
+                |-Functioned as the soul developer
                 <br />
-                | several rounds of ML loops:
+                | in several rounds of ML loops:
                 <br />
                 | |- planning
                 <br />
@@ -385,7 +376,7 @@ export default function ProfileDev() {
                 <br />
                 | in the creation of
                 <br />
-                | react-native applications,
+                | React Native applications,
                 <br />
                 | which used native hooks to
                 <br />
@@ -408,12 +399,10 @@ export default function ProfileDev() {
                 | tools using PyLaTeX
                 <br />
                 |<br />
-                |-Created this , which
+                |-Created this website, which
                 <br />
-                | is an elastic beanstalk
-                <br />
-                | hosted, React, single page
-                <br />| website
+                | is an AWS Amplify hosted
+                <br />| React, single page website
               </p>
             </div>
           </div>
