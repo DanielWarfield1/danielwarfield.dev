@@ -24,6 +24,7 @@ export default function ResumeView() {
       >
         View .pdf
       </a>
+      <div style={{ height: "50px" }} />
     </div>
   );
 }
