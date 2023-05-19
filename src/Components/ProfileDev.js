@@ -254,6 +254,10 @@ export default function ProfileDev() {
                 <br />
                 | |- Matplotlib
                 <br />
+                | |- PyTorch
+                <br />
+                | |- TF.Keras
+                <br />
                 | |- SKLearn
                 <br />
                 | |- SciPy
@@ -261,8 +265,6 @@ export default function ProfileDev() {
                 | |- AstroPy
                 <br />
                 | |- PyMongo
-                <br />
-                | |- TF.Keras
                 <br />
                 | |- ...
                 <br />
@@ -308,7 +310,7 @@ export default function ProfileDev() {
                 | AWS Fargate clusters
                 <br />
                 |<br />
-                |-Functioned as the soul developer
+                |-Functioned as the lead developer
                 <br />
                 | in several rounds of ML loops:
                 <br />
@@ -320,7 +322,17 @@ export default function ProfileDev() {
                 <br />
                 | |- testing
                 <br />| |- deploying
-                <br />| |- performance analysis
+                <br />| |- performance analysis |<br />
+                |<br />
+                |-Data Science Writer
+                <br />| |-{" "}
+                <a
+                  href="https://medium.com/@danielwarfield1/use-frequency-more-frequently-14715714de38"
+                  style={{ color: "white" }}
+                >
+                  Use Frequency More Frequently
+                </a>
+                <br />
               </p>
             </div>
             <h2>
