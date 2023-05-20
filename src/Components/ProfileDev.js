@@ -322,15 +322,23 @@ export default function ProfileDev() {
                 <br />
                 | |- testing
                 <br />| |- deploying
-                <br />| |- performance analysis |<br />
+                <br />| |- performance analysis
+                <br />
                 |<br />
                 |-Data Science Writer
                 <br />| |-{" "}
                 <a
                   href="https://medium.com/@danielwarfield1/use-frequency-more-frequently-14715714de38"
-                  style={{ color: "white" }}
+                  style={{ color: "#7CB9E8" }}
                 >
                   Use Frequency More Frequently
+                </a>
+                <br />| |-{" "}
+                <a
+                  href="https://medium.com/@danielwarfield1/whos-job-is-it-anyway-why-generative-ai-is-dumb-and-unethical-ec19bd6d6e2e"
+                  style={{ color: "#7CB9E8" }}
+                >
+                  Ethics of Generative AI
                 </a>
                 <br />
               </p>
