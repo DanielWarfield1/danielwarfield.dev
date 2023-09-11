@@ -400,7 +400,7 @@ const content = (
         </div>
       />
     </div>
-    <div>{ok2content}</div>
+    {/* <div>{ok2content}</div> */}
     <div>{productsContent}</div>
     <div>{aspContent}</div>
     <div>{hatsContent}</div>
