@@ -1,7 +1,6 @@
 <template>
   <section id="about">
     <div class="section">
-      <p class="section-label">About Me</p>
       <div class="about-grid">
         <div class="about-text">
           <h2 class="section-title">Engineer. Manager.<br>Builder.</h2>
@@ -12,7 +11,7 @@
             revenue-generating deployments in regulated environments.
           </p>
           <p class="body-text">
-            I operate at the intersection of engineering, product, and go-to-market,
+            I operate at the intersection of engineering, product, and go-to-market strategy,
             turning AI capabilities into systems customers actually trust. I also write
             and teach about AI, reaching a global community of 20k+ engineers,
             researchers, and students.
@@ -43,24 +42,39 @@
 const stats = [
   { value: '$1M+',  label: 'Funding Secured' },
   { value: '20k+',  label: 'Reader Community' },
-  { value: '5+',    label: 'Years in AI/ML' },
+  { value: '10+',    label: 'Years in AI/ML' },
 ]
 
 const skillGroups = [
   {
     icon: '🧠',
-    title: 'AI / LLM',
-    skills: ['PyTorch', 'Huggingface', 'RAG & CAG', 'LoRA', 'LangChain', 'LangGraph', 'MCP', 'OpenAI / Anthropic API'],
+    title: 'Machine Learning',
+    skills: ['PyTorch', 'PyTorch Geometric', 'Huggingface', 'RAG & CAG', 'LoRA/ PEFT', 'PySpark', 'Supervised/Semisupervised/Unsupervised', 'Gradient Boosting', 'Entity Extraction and Reconciliation', 'Speculative Sampling', 'Graph Modeling', 'transformers', 'Span Labeling', 'Time Series Modeling'],
+  },
+  {
+    icon: '🤖',
+    title: 'AI Application Development',
+    skills: ['LangChain', 'LangGraph', 'MCP', 'OpenAI / Anthropic API', 'LangFuse', 'ReACT style agents', 'Graph style agents', 'Advanced Tool Use'],
+  },
+  {
+    icon: '🎨',
+    title: 'Front End',
+    skills: ['Vue.js', 'Android w/ Kotlin', 'HTML', 'CSS', 'JavaScript'],
   },
   {
     icon: '⚙️',
-    title: 'Data & Infrastructure',
-    skills: ['Python', 'Pandas & Polars', 'SQL', 'Apache Spark', 'Docker', 'Kubernetes', 'AWS', 'Firebase'],
+    title: 'Back End',
+    skills: ['AWS Amplify', 'Firebase', 'Spark', 'K8s', 'Helm', 'SQL', 'FastAPI', 'Redis', 'MongoDB'],
   },
   {
-    icon: '🌐',
-    title: 'Full Stack',
-    skills: ['FastAPI', 'Vue.js', 'Redis', 'MongoDB', 'SQLite', 'AWS Amplify', 'Native Android', 'Linux'],
+    icon: '🚧',
+    title: 'Infra and DevOps',
+    skills: ['Github Actions', 'MongoDB', 'AWS Amplify', 'AWS ECR & ECS', 'AWS S3'],
+  },
+  {
+    icon: '🗺️',
+    title: 'Project Management',
+    skills: ['Scrum', 'Kanban', 'Trello', 'Jira'],
   },
 ]
 </script>

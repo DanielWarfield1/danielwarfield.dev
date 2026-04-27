@@ -5,8 +5,8 @@
         Hi, I'm <span class="gradient-text">Daniel Warfield</span>
       </h1>
       <p class="hero-subtitle">
-        AI engineer and manager. I've taken ideas to funded,
-        revenue-generating products a few times, both solo and
+        AI engineer and manager. I take ideas to funded,
+        revenue-generating products, both solo and
         with teams.
       </p>
     </div>

@@ -1,7 +1,6 @@
 <template>
   <section id="experience">
     <div class="section">
-      <p class="section-label">Work History</p>
       <div class="exp-header">
         <h2 class="section-title">Professional Experience</h2>
       </div>
@@ -42,7 +41,7 @@ const roles = [
   },
   {
     period: '2023 – Present',
-    org: 'Intuitively & Exhaustively Explained',
+    org: 'Intuitively & Exhaustively Explained · Global',
     title: 'AI Writer & Teacher',
     summary: 'Independent publication covering LLMs, RAG, computer vision, and agentic systems, reaching 20k+ engineers, researchers, and students worldwide.',
   },

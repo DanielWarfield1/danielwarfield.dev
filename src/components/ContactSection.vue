@@ -1,7 +1,6 @@
 <template>
   <section id="contact">
     <div class="section contact-section">
-      <p class="section-label">Get In Touch</p>
       <h2 class="section-title">Let's Work Together</h2>
       <p class="contact-intro">
         I'm always open to interesting projects, collaborations, or just a good

@@ -1,14 +1,13 @@
 <template>
   <section id="content">
     <div class="section">
-      <p class="section-label">Content</p>
       <h2 class="section-title">Writing &amp; Video</h2>
 
       <div class="content-grid">
         <!-- Substack -->
         <a href="https://iaee.substack.com" target="_blank" class="glass-card content-card substack-card">
           <div class="card-top">
-            <div class="platform-badge substack-badge">Substack</div>
+            <div class="platform-badge substack-badge">Substack and Medium</div>
             <span class="follower-count">20k+ readers</span>
           </div>
           <h3 class="card-title">Intuitively &amp; Exhaustively Explained</h3>
