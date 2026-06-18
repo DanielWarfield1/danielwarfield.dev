@@ -83,7 +83,7 @@ async function onSubmit() {
 const links = [
   { icon: '📧', label: 'Email', value: 'hire@danielwarfield.dev', href: 'mailto:hire@danielwarfield.dev' },
   { icon: '✍️', label: 'Blog', value: 'iaee.substack.com', href: 'https://iaee.substack.com' },
-  { icon: '💼', label: 'LinkedIn', value: 'linkedin.com/in/danielwarfield', href: 'https://linkedin.com/in/danielwarfield' },
+  { icon: '💼', label: 'LinkedIn', value: 'linkedin.com/in/daniel-warfield-608b47152', href: 'https://www.linkedin.com/in/daniel-warfield-608b47152/' },
 ]
 </script>
 
